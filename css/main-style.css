@@ -23,23 +23,6 @@ html {
   --purple: #c4b8e0;
 }
 
-.cursor-area{
-  cursor: pointer;
-}
-
-#cursor{
-  position: fixed;
-  /*丸の大きさと色の指定*/
-  background: transparent;
-  border-radius:10px;
-  width: 20px;
-  height: 20px;
-  margin: -10px 0 0 -10px;/*真ん中にくるようにマイナスマージンで調整*/
-  z-index: 2;/*一番手前に来るように*/
-  pointer-events: none;/*クリックできなくなるのを防ぐため。noneで対応*/
-  opacity: 0;
-}
-
 
 body {
   font-size: 1.6em; /*16px*/
