@@ -1,7 +1,7 @@
 
 const swiper = new Swiper(".swiper", {
   autoplay: {
-    delay: 3000, // 3秒ごとにスライド
+    delay: 6000,
     disableOnInteraction: false, // ユーザー操作でオートプレイを無効化しない
   },
   speed: 2000,
