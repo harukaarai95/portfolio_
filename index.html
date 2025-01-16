@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haruka Arai</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Tailwind -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!--my css-->
+    <link rel="stylesheet" href="./css/main-style.css">
+    <link rel="stylesheet" href="./css/sakura.css">
+</head>
+
+<body>
+
+
+    <section id="hero" class="cherry-blossom-container">
+        <div class="hero-wrap">
+            <h1 class="text-4xl">Haruka Arai</h1>
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+        </div>
+        <div class="scroll">
+          <a href="#prj">
+            <p>scroll</p>
+            <div class="down-arrow"></div>
+          </a>
+        </div>
+    </section>
+
+  <div class="nav">
+      <a href="#about">About Me</a>
+      <a href="#prj">Project</a>
+      <a href="#skill">Skills</a>
+      <a href="#contact">Contact</a>
+  </div>
+  <div id="cursor"></div>
+  <div class="cursor-area">
+  <section id="about">
+    <h2>About me...</h2>
+    <div class="bio-wrap">
+        <div class="profile">
+            <img class="pic" src="./assets/mypicture.png" alt="profile">
+            <img class="flame" src="./assets/flame.png">
+        </div>
+            <div class="shortintro">
+                <p>Hello! My name is <span>Haruka</span>. What sparked my interst in <span>web development</span> is the experience of a <span>project management</span> at a translation company for <span>3</span>-years. That led me to start learning coding in English while living in Vancouver.</p>
+            </div>
+    </div>
+        <section id="bio">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- slide  -->
+                    <div class="swiper-slide">
+                        <p><span class="date">1995.6</span></p>
+                        <p>Born in Saitama prefecture, Japan. In my childhood, I remember that I loved walking to a park near house (especially in spring to see cherry blossoms) and also watching fairytales before taking nap with my sisters.</p>
+                        <br>
+                        <p><span class="date">2002.4</span></p>
+                        <p>In ementary School, I enjoyed going library in school and reading books. I prefer nonfictions. From 3rd year, I joined a club of 華道(Japanese flower arrangement) and 茶道(Japanese tea ceremony) simply because I like flowers and sweets which served with Japanese traditional green tea.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p><span class="date">2008. 4</span></p>
+                        <p>In jonior highschool, I joined brassband club and played french horn. I learned how to accomplish goals with a team, the importance of keep practicing.</p>
+                        <br>
+                        <p><span class="date">2011. 4</span></p>
+                        <p>In highschool, I found out I like English since I like reading stories. Kept playing french horn in club and selected as a sub reader of the club. During this time, I learned how to make it with team menbers with different motivations. And I watched musical, lion king for the first time.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p><span class="date">2014. 4</span></p>
+                        <p>In my university, I majored English and cultual studies, and children literature, how to analyze norms that changed in arts/works. in my senior thesis, I studied how broadway musicals empoer women and how they changes their expressions.</p>
+                        <br>
+                        <p><span class="date">2018. 4</span></p>
+                        <p>Worked as a sales peron and administrator in finance depertment in a semi-conductor company and some IT relarted company. I contributed to normalization for routine works using excel. I just start thinking about “what is the best way? how can we make it?</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p><span class="date">2021. 4</span></p>
+                        <p>Worked as a project manager at a translation company. Organized junior PM team including four members and handled more than 30 projects  in average per day as a team. Also, worked as a in-house translator/reviewer and contributed improving quality assurance. Most of all projects I managed were websites and web applications; that triggers my interest for web development.</p>
+                        <br>
+                        <p><span class="date">2024. 8</span></p>
+                        <p>In Vancouver, learned HTML, CSS, JavaScript, PHP, Python and some library and flameworks.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- 必要に応じてナビボタン -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+</section>
+
+
+    <section id="prj">
+        <h2>Projects</h2>
+        <div class="prj-wrap">
+            <article class="card">
+                <div class="prevs">
+                    <img class="preview" src="./assets/christmasplist.png" alt="christmas playlist web-app">
+                </div>
+                <div class="text">
+                    <header><h3>Full Stack Christmas Tree Decolation with Music Web App</h3></header>
+                    <div class="main-t-wrap">
+                        <P>
+                            <span>Objective</span>: to create an app which is playful and  provides users festive atomosphear.
+                        </P>
+                        <p>
+                            <span>Main feature</span>: Once user register their account, they can listen music and earn points. Using points, they can get items to decolate their own christmas tree. Administrator can upload/delete edit songs, items.
+                        </p>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/ljsunny/react-final-project">Code</a>
+                        <a href="https://ljsunny.github.io/react-final-project/">Live Demo</a>
+                    </div>
+                    <div class="tag-area">
+                        <span class="prj-tag">#React</span>
+                        <span class="prj-tag">#PHP</span>
+                        <span class="prj-tag">#team project</span>
+                        <span class="prj-tag">#web app</span>
+                        <span class="prj-tag">#SPA</span>
+                    </div>
+                </div>
+            </article>
+            <div class="card">
+                <div class="prevs">
+                    <img class="preview" src="./assets/btracker.png" alt="budget tracker web-app">
+                </div>
+                <article class="text">
+                    <header><h3>Monthly Budget Tracker</h3></header>
+                    <div class="main-t-wrap">
+                        <P>
+                            <span>Objective</span>: to create a simple budjet tracker web app using local strage.
+                        </P>
+                        <p>
+                            <span>Main feature</span>: .
+                        </p>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/joyy-frontend/expense-tracker">Code</a>
+                        <a href="https://joyy-frontend.github.io/expense-tracker/">Live Demo</a>
+                    </div>
+                    <div class="tag-area">
+                        <span class="prj-tag">#JavaScript</span>
+                        <span class="prj-tag">#Bootstrap</span>
+                        <span class="prj-tag">#team project</span>
+                        <span class="prj-tag">#web app</span>
+                        <span class="prj-tag">#SPA</span>
+                    </div>
+                </article>
+            </div> 
+        </div>
+    </section>
+  </div>
+  <!-- cursor area end -->
+    <section id="skill">
+      <div class="skill-bg1">
+        <h2>Skills</h2>
+        <h3>I have experienced in using...</h3>
+        <div class="tools">
+          <img src="./assets/tools/html.svg">
+          <img src="./assets/tools/css.svg">
+          <img src="./assets/tools/bootstrap.svg">
+          <img src="./assets/tools/tailwind.svg">
+          <img src="./assets/tools/javascript.svg">
+          <img src="./assets/tools/jquery.svg">
+          <img src="./assets/tools/react.svg">
+          <img src="./assets/tools/python.svg">
+          <img src="./assets/tools/php.svg">
+          <img src="./assets/tools/django.svg">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-wrap">
+                <p><span>Email</span>: <a href="mailto:haruka.a.biz@gmail.com">haruka.a.biz@gmail.com</a></p>
+                <p><span>Current Location</span>: Vancouver, Canada</p>
+                <p class="dload">Download my <a href="./assets/resume/Haruka_Arai.pdf" target="_blank" rel="noopener"><strong>resume</strong>.</a></p>
+            <div class="contact-flex">
+                <a href="https://www.linkedin.com/in/haruka-arai-836397322/"><img src="./assets/l-linkdein.svg"> LinkedIn</a>
+                <a href="https://github.com/harukaarai95"><img src="./assets/github-a.svg">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+      
+      
+    <footer>
+    <p>&copy; 2025 Haruka</p>
+    </footer>
+
+
+<script src="./script/swiper.js"></script>
+<script src="./script/script.js"></script>
+<script src="./script/sakura.js"></script>
+</body>
+
+</html>
