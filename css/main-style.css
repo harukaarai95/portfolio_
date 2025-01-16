@@ -108,23 +108,28 @@ ul {
 /* menu */
 
 .nav{
-  height: 6rem;
+  /* height: 6rem; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   /* background: linear-gradient(white, rgba(205,255,227,0.5) 50%, white); */
-  background-color: white;
+  /* background-color: white; */
   /* backdrop-filter: blur(10px); */
+  gap: 4rem;
   padding: 0 15%;
   z-index: 9998;
+  height: 10%;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .nav.sticky {
   position: sticky;
   top: 0;
   left: 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); */
 }
 
 /* for circle */
@@ -223,7 +228,7 @@ animation: fadeIn 4s forwards;
 
 #prj{
   padding: 5rem 5rem 2rem 5rem;
-  background: linear-gradient(-60deg, white -10%, #d0ffe5 100%);
+  background: linear-gradient(-60deg, rgb(251, 223, 223) -10%, #d3ecff 100%);
 }
 
 h2{
@@ -339,22 +344,21 @@ header{
 }
 
 
-
-.about-wrap { 
+/* .about-wrap { 
   background: 
-    radial-gradient(circle at bottom, rgba(255, 255, 255, 0.8), transparent 80%), /* Softer white overlay */
-    linear-gradient(to top, rgba(176, 217, 194, 0.2) 0%, transparent 70%), /* Lightened green */
-    linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.5) 70%), /* Softer white gradient */
-    rgba(176, 226, 242, 0.2); /* Lightened blue */
+    radial-gradient(circle at bottom, rgba(255, 255, 255, 0.8), transparent 80%), 
+    linear-gradient(to top, rgba(176, 217, 194, 0.2) 0%, transparent 70%), 
+    linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.5) 70%),
+    rgba(176, 226, 242, 0.2);
   animation: bg 30s infinite;
 }
 
 @keyframes bg {
-  0%, 100% { background-color: rgba(176, 226, 242, 0.2); } /* Lightened blue */
-  25% { background-color: rgba(176, 217, 194, 0.2); } /* Lightened green */
-  50% { background-color: rgba(252, 236, 212, 0.2); } /* Lightened yellow */
-  75% { background-color: rgba(246, 159, 157, 0.2); } /* Lightened red */
-}
+  0%, 100% { background-color: rgba(176, 226, 242, 0.2); } 
+  25% { background-color: rgba(176, 217, 194, 0.2); } 
+  50% { background-color: rgba(252, 236, 212, 0.2); } 
+  75% { background-color: rgba(246, 159, 157, 0.2); } 
+} */
 
 
 
@@ -592,14 +596,15 @@ footer{
 
 
 
-.wave-header {
+.wave-header,
+.wave-header1 {
   position:relative;
   text-align:center;
   background: linear-gradient(60deg, #b0d9c2 0%, #b0e2f2 100%);
 }
 
-.inner-header {
-  height:65vh;
+.wave-header1 >.inner-header {
+  height:5vh;
   width:100%;
   margin: 0;
   padding: 0;
